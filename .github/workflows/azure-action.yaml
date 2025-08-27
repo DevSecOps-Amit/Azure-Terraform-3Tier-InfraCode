@@ -10,6 +10,9 @@ permissions:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./environments/dev
 
     steps:
       - name: Checkout code
