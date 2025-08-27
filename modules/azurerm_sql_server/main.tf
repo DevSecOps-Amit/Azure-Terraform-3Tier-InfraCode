@@ -1,5 +1,5 @@
 resource "azurerm_mssql_server" "sql_server" {
-  name                         = var.sql_server_name
+  name                         = var.sql-server-name
   resource_group_name          = var.rg_name
   location                     = var.location
   version                      = "12.0"
