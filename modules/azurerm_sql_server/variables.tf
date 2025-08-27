@@ -1,4 +1,4 @@
-variable "sql_server_name" {}
+variable "sql-server-name" {}
 variable "rg_name" {}
 variable "location" {}
 variable "admin_username" {}
